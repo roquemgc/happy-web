@@ -1,0 +1,45 @@
+.orphanage-card {
+  overflow: hidden;
+
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+  background-color: #FFF;
+} 
+
+.orphanage-card .card-menu {
+  padding: 12px 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orphanage-card .card-menu h2 {
+  color: #4D6F80;
+  font-size: 24px;
+}
+
+.orphanage-card .card-menu .actions-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orphanage-card .card-menu .actions-container a,
+.orphanage-card .card-menu .actions-container button {
+  height: 35px;
+  width: 38px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  background-color: #EBF2F5;
+}
+
+.orphanage-card .card-menu .actions-container button {
+  margin-left: 10px;
+}
